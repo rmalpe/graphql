@@ -4,7 +4,10 @@
 
 export FLASK_APP=app.py
 
-run the app by running the flask run command.
+run the app by running the  command.
+
+flask run
+
 
 
 # Query all posts
