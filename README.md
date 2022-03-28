@@ -1,6 +1,6 @@
 # graphql
 
-Query all posts
+# Query all posts
 
 query AllPosts {
   listPosts {
@@ -16,7 +16,7 @@ query AllPosts {
 }
 
 
-Querying a single post by id
+# Querying a single post by id
 
 
 query GetPost {
@@ -32,9 +32,10 @@ query GetPost {
 }
 
 
-Mutation
+# Mutation
 
-Creating a new post
+# Creating a new post
+
 mutation CreateNewPost {
   createPost(
     title: "New Blog Post", 
@@ -51,7 +52,8 @@ mutation CreateNewPost {
 }
 
 
-Updating a post
+# Updating a post
+
 mutation UpdatePost {
   updatePost(id:"2", title:"Hello title", description:"updated description") {
     post {
@@ -65,7 +67,7 @@ mutation UpdatePost {
 }
 
 
-Deleting a post
+# Deleting a post
 
 mutation DeletePost {
   deletePost(id:"13") {
