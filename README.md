@@ -1,5 +1,12 @@
 # graphql
 
+# how to run 
+
+export FLASK_APP=app.py
+
+run the app by running the flask run command.
+
+
 # Query all posts
 
 query AllPosts {
